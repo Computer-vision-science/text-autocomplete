@@ -1,0 +1,18 @@
+lstm:
+  hidden_dim: 128
+  num_layers: 2
+  dropout: 0.3
+  lr: 0.002
+  n_epochs: 12
+  batch_size: 256
+
+gpt2:
+  model_name: "distilgpt2"
+  temperature: 0.8
+  top_p: 0.95
+  max_new_tokens: 50
+
+data:
+  max_len: 64
+  random_state: 42
+
